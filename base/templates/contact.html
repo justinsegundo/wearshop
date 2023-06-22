@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/home/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/services/">Services</a>
+            <a href="/contact/">Contact</a>
+        </nav>
+        
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class='bx bx-search-alt-2' ></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <div class="text-sci">
+                <h2>Contact<br></h2>
+
+                <p><i class='bx bx-phone'></i> +6390-2883-889</p>
+                <p><i class='bx bxl-gmail' ></i> borcelle.wear@gmail.com</p>
+                <h3>We love to contact you!</h3>
+<!-- 
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/photo/?fbid=657092949764008&set=a.431885842284721"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>

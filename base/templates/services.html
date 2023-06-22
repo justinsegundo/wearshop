@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/home/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/services/">Services</a>
+            <a href="/contact/">Contact</a>
+        </nav>
+        
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class='bx bx-search-alt-2' ></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+    <div class="container-services">
+        <div class="content">
+            <div class="text-sci">
+                <h2>Services<br></h2>
+
+                <p>At Borcelle Wear Shop, we offer trendy women's apparel and accessories, easy navigation on our user-friendly website, exceptional customer support, secure payment options, fast and reliable shipping, and style inspiration through our social media channels and blog. Experience hassle-free shopping and discover the latest fashion trends with us.</p>
+<!-- 
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/photo/?fbid=657092949764008&set=a.431885842284721"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
